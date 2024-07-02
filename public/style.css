@@ -1,0 +1,73 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    display: flex;
+    height: 100vh;
+}
+
+.sidebar {
+    flex: 1;
+    background-color: #333;
+    color: white;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+.chat-container {
+    flex: 3;
+    display: flex;
+    flex-direction: column;
+}
+
+.chat {
+    flex: 1;
+    overflow-y: scroll;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+.input-container {
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    background-color: #fff;
+    border-top: 1px solid #ccc;
+}
+
+.input-container input {
+    flex: 1;
+    padding: 10px;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    margin-right: 10px;
+}
+
+.input-container button {
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.decrypt-container {
+    flex: 1;
+    background-color: #fff;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+#decrypted-message {
+    border: 1px solid #ccc;
+    padding: 10px;
+    font-size: 16px;
+    min-height: 100px;
+}
